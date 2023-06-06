@@ -1,5 +1,5 @@
 import React from "react";
-import CardContainer from "./cardContainer";
+import CardContainer from "./CardContainer";
 
 const page = async () => {
   return (
