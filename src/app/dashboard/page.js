@@ -1,7 +1,7 @@
 import React from "react";
 import CardContainer from "./CardContainer";
 
-const page = async () => {
+const Page = async () => {
   return (
     <>
       <div className="w-full h-full py-8 mx-auto">
@@ -16,4 +16,4 @@ const page = async () => {
   );
 };
 
-export default page;
+export default Page;

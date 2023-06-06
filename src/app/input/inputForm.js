@@ -2,7 +2,7 @@ import React from "react";
 import axios from "axios";
 import { useForm } from "react-hook-form";
 
-const inputForm = () => {
+const InputForm = () => {
   const { register, handleSubmit, reset } = useForm();
 
   const onSubmit = (data) => {
@@ -125,4 +125,4 @@ const inputForm = () => {
   );
 };
 
-export default inputForm;
+export default InputForm;

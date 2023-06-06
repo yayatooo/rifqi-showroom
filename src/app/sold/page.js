@@ -13,7 +13,7 @@ const getVehicles = async () => {
   return json;
 };
 
-const page = async () => {
+const Page = async () => {
   const [vehicles, setVehicles] = useState({});
 
   const fetchData = async () => {
@@ -56,4 +56,4 @@ const page = async () => {
   );
 };
 
-export default page;
+export default Page;

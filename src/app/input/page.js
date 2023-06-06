@@ -5,7 +5,7 @@ import React from "react";
 import { toast } from "react-hot-toast";
 // import inputForm from "./inputForm";
 
-const page = () => {
+const Page = () => {
   const { register, handleSubmit, reset } = useForm();
 
   const onSubmit = (data) => {
@@ -117,4 +117,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

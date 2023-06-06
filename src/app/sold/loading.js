@@ -1,6 +1,6 @@
 import React from "react";
 
-const loading = () => {
+const Loading = () => {
   return (
     <div className="bg-white w-full h-[100vh] flex justify-center items-center">
       <div
@@ -14,4 +14,4 @@ const loading = () => {
   );
 };
 
-export default loading;
+export default Loading;
